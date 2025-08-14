@@ -8,7 +8,7 @@ struct pessoa
     int idade;
 };
 #include<stdio.h>
-int calcula_idade(struct pessoa p, int dia, int mes, int ano);
+int calcula_idade(struct pessoa *p, int dia, int mes, int ano);
 
 
 #endif /* LIB_H */
